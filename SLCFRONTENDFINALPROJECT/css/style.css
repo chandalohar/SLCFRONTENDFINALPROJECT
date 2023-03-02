@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .header-sect{margin-left: 30px;}
+  #logo-left{margin-top: -10px; position: absolute; z-index:auto;}
+.travlo{font-size: 20px; color: blue; margin-left: 60px; }
+.header-left  {margin-top: 20px;}
+.links >a{font-size: 20px; color:blue; padding: 20px; text-decoration: none;}
+.links a:hover { color:cadetblue; }
+.backgr-img{  background-image: url("bg/home-bg-section-1.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.img-content >p,.img-content >h1 {text-align: center; padding-left: 300px; padding-right: 300px; }
+.img-content >h1{ padding-top:100px ; font-size: 40px;}
+.img-content >p{font-size: 16px;}
+.columnfacility {
+    float: left;
+    width: 19%;
+    padding: 60px 20px 20px 20px;
+    height: 250px; /* Should be removed. Only for demonstration */
+    margin: 20px;
+    text-align: center;
+   
+  }
+  .columnfacility >p{font-size: 15px;  padding-left: 30px; padding-right: 30px;}
+  .columnfacility >h3{ font-size: 23px; padding-left: 30px; padding-right: 30px;  line-height: 0.9;}
+
+  .row-facility:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.recommend-section>h1{text-align: center; font-size: 60px;}
+.recommend-links>a{text-align: center; font-size: 20px; text-decoration:none; color: black;
+    margin: 15px; font-weight: 700; 
+   /* padding-bottom: 8px;
+   border-bottom-style: azure;
+   border-bottom-width: 3.1px;
+   width: fit-content;
+  text-decoration-color: azure;  */
+}
+.first-active{ padding-bottom: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    width: fit-content;
+  }
+
+
+
+  .baground-color
+  {background-color:azure;
+    height: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    .recomend-sect {
+        /* background-color: #fff; */
+        float: left;
+        width: 28%;
+       
+        height: 600px; /* Should be removed. Only for demonstration */
+      margin: 33px;
+      }
+.images-recommend{border-radius: 10px;}      
+.mount-climbo{background-image: url("bg/background-left.jpg");
+  background-color: #cccccc;
+  height: 460px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; width: 50%; display: inline-block;
+  margin-left: 40px; border-radius: 10px;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 35px; font-weight: bold;
+}
+
+  .right-first{background-image: url("bg/right-first.jpg");
+    background-color: #cccccc;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+  display: inline-block;
+   border-radius: 10px; width: 100%; margin-right: 20px;
+   position: relative;
+   text-align: center;
+   color: white;
+   font-size: 22px;}
+
+    .right-second{background-image: url("bg/right-second.jpg");
+      background-color: #cccccc;
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: white; 
+       display: inline-block;
+     border-radius: 10px; width: 100%; 
+     position: relative;
+     text-align: center;
+     color: white;
+     font-size: 22px;
+    }
+     .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .happy-cust-first{ background-image: url("bg/customer.jpg");
+      background-color: #cccccc;
+      height: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      width: 100%; display: inline-block; float: left;}
+      .customer-text{
+        background-color:azure;width: 47%;
+        height: 600px;  text-align: justify;
+        /* margin-left:50px; margin-top: 150px;   */
+        margin-top: -17px;
+      }
+      .customer-text>p{padding-left: 80px; padding-top: 100px; font-size: 16px; line-height: 1.6; 
+      padding-right: 30px;}
+      #profile-img{height: 80px; width: 80px; border-radius: 50%; margin-left: 100px;}
+      
+   #bottom-bottom >p{
+       }
+   .copyright-footer{margin-top: 70px;  margin-bottom: 70px;   display: inline-block; margin-left: 20px; 
+  font-size: 18px;}   
+
+  .fa-instagram {
+    background: #000a11;
+    color: white;
+    padding:15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+.fa-linkedin {
+  background: #000a11;
+  color: white;
+  padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 16px;
+}
+.fa-facebook {
+  background: #000a11;
+  color: white;
+  padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 18px;
+}
